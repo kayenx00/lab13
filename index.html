@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <title>Carousel Page</title>
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+        <link rel="stylesheet" href="style.css">
+        <!-- Bootstrap core CSS -->
+        <link 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0beta1/dist/css/bootstrap.min.css" 
+            rel = "stylesheet" 
+            integrity="sha3840evHe/X+R7YkIZDRvuzKMRqM+0rBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet ">    
+    </head>
+    <body>    
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <div class = "contatner-fluid">
+                    <a class="navbar-brand" href="#">Carousel</a>
+                    <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target= "#navbarCollapse"
+                    aria-controls="navbarCollapse"
+                    aria-expanded=" false"
+                    aria-label="Toggte navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" 
+                                aria-current="page" 
+                                href="#"
+                                >Home</a>
+                            </li>
+                            <li class="nav-ttem">
+                                <a class="nav-link" 
+                                href="#"
+                                >Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" 
+                                href="#" 
+                                tabindex="-1"
+                                aria-disabled="true"
+                                >Disabled</a>
+                            </li>               
+                        </ul>
+                        <form class = "d-flex">
+                            <input class="form-control me-2" type="search"
+                            placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success"
+                            type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="carousel-tnner">
+            <div class="carousel-ttem active bg-ingl">
+                <div class="contatner">
+                    <div class="carousel-caption text-start">
+                        <hi>Example headline. </h1>
+                        <p>Some representative placeholder content for the
+                        first slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item bg-img2">
+                <div class="contatner">
+                <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p>Sone representative placeholder content for the second
+                    slide of the carousel.</p>
+                    <p><a class="btn btn-lg btn-primary" href ="#">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item bg-img3">
+            <div class="contatner">
+                <div class="carousel-caption text-end">
+                    <h1>One more for good measure.</h1>
+                    <p>Sone representative placeholder content for the third
+                    slide of this carousel.</p>
+                    <p><a class="btn btn-1g btn-primary" href="#">Browse gallery</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel"
+                data-bs-slide-to="0" class="active" aria-label="Slide 1"
+                    aria-current="true">
+            </button>
+            <button type="button" data-bs-target="#myCarousel"
+                data-bs-slide-to="1" aria-label="Slide 2"
+                    class = "">
+            </button>
+            <button type="button" data-bs-target="#myCarousel"
+                data-bs-slide-to="2" aria-label="Slide 3"
+                    class="">
+            </button>
+        </div>
+        <button class="carousel-control-prev" type="button"
+            data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next” type="button”
+            data-bs-target="#myCarousel” data-bs-slide="next*>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+        </button>
+        <!-- JavaScript Bundte with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0beta1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384pprn3073KE6t16b}js20rFaIG25/
+        SUsLgkt twsUTF55Jfv3qYSDhgCecCxta52n02"
+                crossorgin="anonynous">
+        </script>
+    </body>
+</html>
